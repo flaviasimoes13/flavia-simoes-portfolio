@@ -17,3 +17,19 @@ const revealObserver = new IntersectionObserver(
 revealElements.forEach((element) => {
     revealObserver.observe(element);
 });
+
+const menuToggle = document.querySelector(".menu-toggle");
+const siteNav = document.querySelector(".site-nav");
+const navLinks = document.querySelectorAll(".site-nav a");
+
+menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("open");
+    siteNav.classList.toggle("open");
+});
+
+navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        menuToggle.classList.remove("open");
+        siteNav.classList.remove("open");
+    });
+});
