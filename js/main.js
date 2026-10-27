@@ -33,3 +33,36 @@ navLinks.forEach((link) => {
         siteNav.classList.remove("open");
     });
 });
+
+/* ==========================================================
+   FLAGS — MOBILE CASE SLIDER
+========================================================== */
+
+document.querySelectorAll(".flags-case").forEach((caseItem) => {
+
+    const button =
+        caseItem.querySelector(".flags-case-toggle");
+
+    if (!button) return;
+
+
+    button.addEventListener("click", () => {
+
+        const showingProposal =
+            caseItem.classList.toggle("show-proposal");
+
+
+        button.textContent =
+            showingProposal ? "←" : "→";
+
+
+        button.setAttribute(
+            "aria-label",
+            showingProposal
+                ? "Ver bandeira original"
+                : "Ver proposta"
+        );
+
+    });
+
+});

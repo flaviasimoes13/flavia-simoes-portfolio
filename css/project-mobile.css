@@ -1,0 +1,1129 @@
+/* ==========================================================
+   07 — MOBILE
+   SHARED
+========================================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --content-padding: 20px;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — PROJECT PAGE
+    ------------------------------------------------------ */
+
+    .project-page {
+        padding-bottom: 70px;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — HERO
+    ------------------------------------------------------ */
+
+    .project-hero {
+        padding: 10px 0 0;
+    }
+
+    .project-hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — PROJECT OVERVIEW
+    ------------------------------------------------------ */
+
+    .project-overview {
+        padding: 50px var(--content-padding) 50px;
+    }
+
+    .project-overview-title h1 {
+        font-size: clamp(2rem, 9vw, 4rem);
+
+        line-height: 1.1;
+    }
+
+    .project-overview-divider {
+        margin: 28px 0 36px;
+    }
+
+    .project-overview-grid {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .project-overview-copy {
+        max-width: none;
+
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    .project-overview-copy p {
+        max-width: none;
+    }
+
+    .project-tagline {
+        font-size: 1rem;
+
+        line-height: 1.35;
+    }
+
+    .project-overview-services {
+        width: 100%;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — IMAGE GRID
+    ------------------------------------------------------ */
+
+    .project-grid {
+        padding: 0 var(--content-padding);
+
+        gap: 20px;
+    }
+
+    .project-grid-two {
+        grid-template-columns: 1fr;
+    }
+
+    .project-grid img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — CLOSING
+    ------------------------------------------------------ */
+
+    .project-closing {
+        padding: 0 var(--content-padding);
+    }
+
+    .project-closing img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------------------------------
+       SHARED — NEXT PROJECT
+    ------------------------------------------------------ */
+
+    .next-project {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 30px;
+
+        margin-top: 100px;
+
+        padding: 35px var(--content-padding);
+    }
+
+    /* ======================================================
+       08 — MOBILE — SFL
+    ====================================================== */
+
+    /* ------------------------------------------------------
+       SFL — POSTER
+    ------------------------------------------------------ */
+
+    .sfl-poster-feature {
+        padding: 0 var(--content-padding) 80px;
+    }
+
+    /* ------------------------------------------------------
+       SFL — 3 IDENTITY APPLICATIONS
+    ------------------------------------------------------ */
+
+    .sfl-identity-row {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0 var(--content-padding) 0;
+    }
+
+    /* ------------------------------------------------------
+       SFL — GENERATIVE PROCESS
+    ------------------------------------------------------ */
+
+    .generative-process {
+        padding: 60px var(--content-padding) 0;
+    }
+
+    .generative-flow {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+
+        padding-bottom: 50px;
+    }
+
+    .flow-step {
+        min-height: auto;
+    }
+
+    .flow-step h2 {
+        font-family: "IvyOra", serif;
+
+        font-size: clamp(3rem, 13vw, 4.5rem);
+
+        font-weight: 400;
+
+        line-height: 0.95;
+
+        color: var(--blue);
+    }
+
+    .flow-step p {
+        max-width: none;
+
+        margin-top: 12px;
+
+        padding-top: 0;
+
+        font-size: 14px;
+
+        line-height: 1.4;
+    }
+
+    .flow-arrow {
+        width: fit-content;
+
+        margin: 28px auto;
+
+        transform: rotate(90deg);
+
+        font-size: 1.8rem;
+    }
+
+    .generative-description {
+        width: 100%;
+        max-width: none;
+
+        margin: 35px 0 0;
+
+        font-size: 0.95rem;
+
+        line-height: 1.5;
+    }
+
+    /* ------------------------------------------------------
+       SFL — SECTION HEADINGS
+       Variação + Website
+    ------------------------------------------------------ */
+
+    .sfl-section-heading {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+        margin-bottom: 45px;
+    }
+
+    .sfl-section-heading span {
+        font-family: "IvyOra", serif;
+
+        color: var(--blue);
+
+        font-size: clamp(2.5rem, 4vw, 5rem);
+
+        font-style: italic;
+    }
+
+    .sfl-section-heading p {
+        max-width: none;
+
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    /* ------------------------------------------------------
+       SFL — VARIATIONS
+    ------------------------------------------------------ */
+
+    .sfl-variations {
+        padding: 20px var(--content-padding) 90px;
+    }
+
+    /* ------------------------------------------------------
+       SFL — EVENT MATERIAL
+    ------------------------------------------------------ */
+
+    .sfl-event-row {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0 var(--content-padding) 0;
+    }
+
+    /* ------------------------------------------------------
+       SFL — WEBSITE
+    ------------------------------------------------------ */
+
+    .sfl-website {
+        padding: 60px var(--content-padding) 0;
+    }
+
+    .sfl-website-image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ======================================================
+       09 — MOBILE — BITCH!
+    ====================================================== */
+
+    .editorial-statement {
+        padding: 80px var(--content-padding) 40px;
+    }
+
+    .editorial-statement-number {
+        margin-bottom: 25px;
+    }
+
+    .editorial-statement-content {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .editorial-statement h2 {
+        font-size: clamp(2.8rem, 12vw, 4.5rem);
+
+        line-height: 1;
+    }
+
+    .editorial-statement p {
+        max-width: none;
+
+        font-size: 0.95rem;
+
+        line-height: 1.5;
+    }
+
+    .bitch-feature-image {
+        padding: 0 var(--content-padding) 90px;
+    }
+
+    .bitch-detail {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding: 20px var(--content-padding) 90px;
+    }
+
+    .bitch-detail-title span {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+    }
+
+    .bitch-detail-copy {
+        justify-content: flex-start;
+    }
+
+    .bitch-detail-copy p {
+        max-width: none;
+
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    /* ------------------------------------------------------
+   FIRST IMAGE PAIR
+------------------------------------------------------ */
+
+    .bitch-project .project-grid-two {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0 var(--content-padding) 0;
+    }
+
+    .bitch-project .project-grid-two figure {
+        margin: 0;
+
+        width: 100%;
+    }
+
+    .bitch-project .project-grid-two img {
+        display: block;
+
+        width: 100%;
+        height: auto;
+
+        max-width: none;
+    }
+
+    /* ======================================================
+       10 — MOBILE — FLAGS
+    ====================================================== */
+
+    .flags-hero {
+        padding: 40px var(--content-padding) 0;
+    }
+
+    .flags-hero-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 10px;
+    }
+
+    .flags-hero-grid img:nth-child(3) {
+        display: none;
+    }
+
+    /* Process */
+
+    .flags-process {
+        padding: 0 var(--content-padding) 0;
+    }
+
+    .flags-process-flow {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+    .flags-process-step {
+        min-height: auto;
+    }
+
+    .flags-process-step h2 {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+    }
+
+    .flags-process-step p {
+        max-width: none;
+
+        margin-top: 12px;
+
+        padding-top: 0;
+    }
+
+    .flags-process-arrow {
+        width: fit-content;
+
+        margin: 26px auto;
+
+        transform: rotate(90deg);
+
+        font-size: 1.6rem;
+    }
+
+    /* Gallery */
+
+    .flags-gallery {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 40px 14px;
+
+        padding: 0 var(--content-padding) 100px;
+    }
+
+    .flags-cases {
+        display: flex;
+        flex-direction: column;
+
+        gap: 60px;
+
+        padding: 0 var(--content-padding) 0;
+    }
+
+    /* ------------------------------------------------------
+       CADA LOCALIDADE
+    ------------------------------------------------------ */
+
+    .flags-case {
+        position: relative;
+
+        display: block;
+
+        width: 88%;
+
+        margin: 0 auto;
+    }
+
+    /* ------------------------------------------------------
+       DESLIGAR A SETA DO DESKTOP
+    ------------------------------------------------------ */
+
+    .flags-case::after {
+        display: none;
+        content: none;
+    }
+
+    /* ------------------------------------------------------
+       FIGURES
+    ------------------------------------------------------ */
+
+    .flags-case figure {
+        margin: 0;
+
+        width: 100%;
+    }
+
+    /* Original aparece inicialmente */
+
+    .flags-case-original {
+        display: block;
+    }
+
+    /* Proposta começa escondida */
+
+    .flags-case-proposal {
+        display: none;
+    }
+
+    /* ------------------------------------------------------
+       QUANDO MOSTRA A PROPOSTA
+    ------------------------------------------------------ */
+
+    .flags-case.show-proposal .flags-case-original {
+        display: none;
+    }
+
+    .flags-case.show-proposal .flags-case-proposal {
+        display: block;
+    }
+
+    /* ------------------------------------------------------
+       IMAGENS
+    ------------------------------------------------------ */
+
+    .flags-case img {
+        display: block;
+
+        width: 100%;
+        height: auto;
+    }
+
+    /* ------------------------------------------------------
+       LEGENDAS
+    ------------------------------------------------------ */
+
+    .flags-case figcaption {
+        margin-top: 8px;
+
+        font-size: 10px;
+
+        text-transform: uppercase;
+
+        letter-spacing: 0.06em;
+
+        opacity: 0.6;
+    }
+
+    /* ------------------------------------------------------
+       BOTÃO
+    ------------------------------------------------------ */
+
+    .flags-case-toggle {
+        position: absolute;
+
+        top: 50%;
+        right: 10px;
+
+        z-index: 20;
+
+        transform: translateY(-50%);
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        width: 44px;
+        height: 44px;
+
+        margin: 0;
+        padding: 0;
+
+        border: 0;
+        border-radius: 50%;
+
+        background: rgba(240, 243, 250, 0.78);
+
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        font-size: 1.5rem;
+        font-weight: 300;
+
+        line-height: 1;
+
+        color: var(--dark);
+
+        cursor: pointer;
+    }
+
+    /* Na proposta, seta passa para esquerda */
+
+    .flags-case.show-proposal .flags-case-toggle {
+        right: auto;
+        left: 10px;
+    }
+
+    /* System */
+
+    .flags-system {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding: 50px var(--content-padding) 90px;
+    }
+
+    .flags-system-title span {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+    }
+
+    .flags-system-copy {
+        max-width: none;
+    }
+
+    .flags-system-copy p {
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    /* Closing */
+
+    .flags-closing {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 14px;
+
+        padding: 0 var(--content-padding);
+    }
+
+    .flags-closing img:nth-child(1),
+    .flags-closing img:nth-child(2),
+    .flags-closing img:nth-child(3) {
+        grid-column: auto;
+
+        margin-top: 0;
+    }
+
+    .flags-closing img:nth-child(3) {
+        grid-column: 1 / span 2;
+
+        width: 50%;
+
+        margin: 20px auto 0;
+    }
+
+    /* ======================================================
+       11 — MOBILE — IMPRESSION / EXPERIENCE
+    ====================================================== */
+
+    /* ------------------------------------------------------
+       EXTERIOR COMMUNICATION
+    ------------------------------------------------------ */
+
+    .impression-project .project-grid-two {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .impression-project .project-grid-two figure {
+        aspect-ratio: auto;
+    }
+
+    .impression-project .project-grid-two img {
+        width: 100%;
+        height: auto;
+
+        object-fit: initial;
+    }
+
+    /* ------------------------------------------------------
+       CONCEPT STATEMENT
+    ------------------------------------------------------ */
+
+    .impression-statement {
+        padding: 80px var(--content-padding) 20px;
+    }
+
+    .impression-statement-number {
+        margin-bottom: 25px;
+    }
+
+    .impression-statement-content {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .impression-statement h2 {
+        font-size: clamp(2.8rem, 12vw, 4.5rem);
+
+        line-height: 1;
+    }
+
+    .impression-statement p {
+        max-width: none;
+
+        font-size: 0.95rem;
+
+        line-height: 1.5;
+    }
+
+    /* ------------------------------------------------------
+   IMPRESSION — PRINT / DIGITAL MATERIALS
+   mobile: uma coluna
+------------------------------------------------------ */
+
+    .impression-materials {
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0 var(--content-padding) 100px;
+    }
+
+    .impression-materials figure {
+        margin: 0;
+
+        width: 100%;
+
+        aspect-ratio: auto;
+    }
+
+    .impression-materials img {
+        display: block;
+
+        width: 100%;
+        height: auto;
+
+        object-fit: initial;
+    }
+
+    .impression-material-large,
+    .impression-material-small,
+    .impression-material-digital {
+        grid-column: 1;
+
+        width: 100%;
+
+        margin: 0;
+    }
+
+    /* ------------------------------------------------------
+       SPATIAL EXPERIENCE INTRO
+    ------------------------------------------------------ */
+
+    .impression-space-intro {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding: 60px var(--content-padding) 50px;
+    }
+
+    .impression-space-title span {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+
+        line-height: 1;
+
+        color: var(--blue);
+    }
+
+    .impression-space-copy {
+        max-width: none;
+    }
+
+    .impression-space-copy p {
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    /* ------------------------------------------------------
+       SPATIAL GALLERY
+    ------------------------------------------------------ */
+
+    .impression-spatial-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+
+        padding: 0 var(--content-padding) 0;
+    }
+
+    .impression-spatial-grid figure,
+    .impression-spatial-01,
+    .impression-spatial-02,
+    .impression-spatial-03,
+    .impression-spatial-04,
+    .impression-spatial-05,
+    .impression-spatial-06,
+    .impression-spatial-07,
+    .impression-spatial-08 {
+        grid-column: 1;
+
+        aspect-ratio: auto;
+    }
+
+    .impression-spatial-grid img {
+        width: 100%;
+        height: auto;
+
+        object-fit: initial;
+    }
+
+    /* ======================================================
+       12 — MOBILE — THE RAVEN
+    ====================================================== */
+
+    .raven-statement {
+        padding: 80px var(--content-padding) 80px;
+    }
+
+    .raven-statement-number {
+        margin-bottom: 25px;
+    }
+
+    .raven-statement-content {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .raven-statement h2 {
+        font-size: clamp(2.8rem, 12vw, 4.5rem);
+
+        line-height: 1;
+    }
+
+    .raven-statement p {
+        max-width: none;
+
+        font-size: 0.95rem;
+
+        line-height: 1.5;
+    }
+
+    /* Cards */
+
+    .raven-cards {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding: 0 var(--content-padding) 45px;
+    }
+
+    .raven-cards-long,
+    .raven-cards-set {
+        grid-column: 1;
+
+        width: 100%;
+
+        margin: 0;
+    }
+
+    /* Detail */
+
+    .raven-detail {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+        padding: 30px var(--content-padding) 90px;
+    }
+
+    .raven-detail-title span {
+        font-size: clamp(2.8rem, 12vw, 4rem);
+    }
+
+    .raven-detail-copy {
+        justify-content: flex-start;
+    }
+
+    .raven-detail-copy p {
+        max-width: none;
+
+        font-size: 1rem;
+
+        line-height: 1.45;
+    }
+
+    /* Closing */
+
+    .raven-closing {
+        padding: 0 var(--content-padding);
+    }
+
+    .raven-closing img {
+        width: 100%;
+    }
+
+
+    /* ======================================================
+   MOBILE — WHISPERING WALLS
+====================================================== */
+
+
+/* ------------------------------------------------------
+   FIRST ROW
+   ww2 + ww3 + ww1
+------------------------------------------------------ */
+
+.ww-row-three {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+
+    padding:
+        0
+        var(--content-padding)
+        45px;
+}
+
+.ww-row-three figure {
+    margin: 0;
+
+    width: 100%;
+}
+
+.ww-row-three img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    max-width: none;
+}
+
+
+/* ------------------------------------------------------
+   STATEMENT
+------------------------------------------------------ */
+
+.ww-statement {
+    padding:
+        20px
+        var(--content-padding)
+        45px;
+}
+
+.ww-statement-number {
+    margin-bottom: 25px;
+
+    font-size: 11px;
+}
+
+.ww-statement-content {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    align-items: start;
+}
+
+.ww-statement h2 {
+    max-width: none;
+
+    font-size:
+        clamp(
+            2.8rem,
+            12vw,
+            4.5rem
+        );
+
+    line-height: 1;
+}
+
+.ww-statement p {
+    max-width: none;
+
+    font-size: 1rem;
+
+    line-height: 1.45;
+}
+
+
+/* ------------------------------------------------------
+   FULL IMAGE
+   ww7
+------------------------------------------------------ */
+
+.ww-full-image {
+    padding:
+        0
+        var(--content-padding)
+        45px;
+}
+
+.ww-full-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ------------------------------------------------------
+   DETAIL TEXT
+   Ambiente
+------------------------------------------------------ */
+
+.ww-detail {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+
+    padding:
+        20px
+        var(--content-padding)
+        90px;
+}
+
+.ww-detail-title span {
+    font-size:
+        clamp(
+            2.8rem,
+            12vw,
+            4rem
+        );
+
+    line-height: 1;
+
+    color: var(--blue);
+}
+
+.ww-detail-copy {
+    max-width: none;
+}
+
+.ww-detail-copy p {
+    font-size: 1rem;
+
+    line-height: 1.45;
+}
+
+.ww-detail-copy p + p {
+    margin-top: 24px;
+}
+
+
+/* ------------------------------------------------------
+   CLOSING TEXT
+   Experiência
+------------------------------------------------------ */
+
+.ww-closing-text {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+
+    padding:
+        20px
+        var(--content-padding)
+        90px;
+}
+
+.ww-closing-text-title span {
+    font-size:
+        clamp(
+            2.8rem,
+            12vw,
+            4rem
+        );
+
+    line-height: 1;
+
+    color: var(--blue);
+}
+
+.ww-closing-text-copy {
+    display: block;
+}
+
+.ww-closing-text-copy p {
+    max-width: none;
+
+    font-size: 1rem;
+
+    line-height: 1.45;
+}
+
+
+/* ------------------------------------------------------
+   SINGLE IMAGE
+   ww8
+------------------------------------------------------ */
+
+.ww-single-image {
+    padding:
+        0
+        var(--content-padding)
+        0;
+}
+
+.ww-single-image img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+
+
+/* ------------------------------------------------------
+   FINAL ROW
+   ww12 + ww13
+------------------------------------------------------ */
+
+.ww-row-two {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+
+    padding:
+        0
+        var(--content-padding)
+        45px;
+}
+
+.ww-row-two figure {
+    margin: 0;
+
+    width: 100%;
+}
+
+.ww-row-two img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    max-width: none;
+}
+}

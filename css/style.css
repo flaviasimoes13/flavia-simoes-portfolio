@@ -287,29 +287,33 @@ img {
 }
 
 .work-impression {
-    grid-column: 12 / span 7;
-    margin-top: 500px;
+    grid-column: 8 / span 11;
+    margin-top: -50px;
 }
 
 .work-impression img {
-    aspect-ratio: 2 / 3;
-    object-fit: cover;
-    object-position: 0% 0%;
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: auto;
+
+    object-fit: contain;
+    object-position: center;
 }
 
 .work-flags {
     grid-column: 2 / span 8;
-    margin-top: -400px;
+    margin-top: -50px;
 }
 
 .work-bitch {
     grid-column: 11 / span 8;
-    margin-top: 170px;
+    margin-top: 400px;
 }
 
 .work-sfl {
     grid-column: 1 / span 8;
-    margin-top: -200px;
+    margin-top: -150px;
 }
 
 .work-sfl img {
@@ -320,7 +324,7 @@ img {
 
 .work-whispering {
     grid-column: 10 / span 9;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 /*.work-whispering img {
